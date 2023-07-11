@@ -1,0 +1,71 @@
+$color_1: white;
+$font-family_1: 'Recursive', sans-serif;
+$background-color_1: #A80025;
+
+.containter-fluid {
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+.navbar {
+	justify-content: center;
+	align-items: center;
+}
+.navbar-nav {
+	font-size: 25px;
+	align-items: center;
+}
+.carousel-inner {
+	height: 600px !important;
+}
+#ELSOLIS {
+	font-family: $font-family_1;
+	font-size: small;
+}
+#ELMENU {
+	font-family: $font-family_1;
+}
+#LAISLA {
+	font-family: $font-family_1;
+}
+#RESERVAS {
+	font-family: $font-family_1;
+}
+.footer {
+	background-color: $background-color_1;
+}
+.footerizq {
+	padding-top: 2%;
+	font-family: $font-family_1;
+	font-size: 25px;
+	color: $color_1;
+}
+.footerder {
+	padding-top: 2%;
+	text-align: right;
+	padding-right: none;
+	font-family: $font-family_1;
+	font-size: 15px;
+	color: $color_1;
+}
+@media only screen and (max-width: 767px) {
+	#carouselExampleIndicators {
+		margin-top: 30%;
+		margin-bottom: -90%;
+	}
+	.carousel-control-prev {
+		margin-top: -100%;
+	}
+	.carousel-control-next {
+		margin-top: -100%;
+	}
+	.footerizq {
+		text-align: center;
+	}
+	.footerder {
+		font-family: $font-family_1;
+		font-size: 15px;
+		color: $color_1;
+		text-align: center;
+	}
+}
